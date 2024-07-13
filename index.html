@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Sneakers Mentor | E-commerce product page</title>
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <h1>sneakers</h1>
+      <ul>
+        <a href="#"><li>Collections</li></a>
+        <a href="#"><li>Men</li></a>
+        <a href="#"><li>Women</li></a>
+        <a href="#"><li>About</li></a>
+        <a href="#"><li>Contact</li></a>
+      </ul>
+      <div class="cart">
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+      <img src="images/image-avatar.png" alt="avatar" />
+    </nav>
+    <hr />
+
+    <div class="main-left">
+      <img class="changer" src="images/image-product-1.jpg" alt="changerr" />
+    </div>
+    <div class="main-right">
+      <h6>SNEAKER COMPANY</h6>
+      <br />
+      <h2>
+        Fall Limited Edition <br />
+        Sneakers
+      </h2>
+      <br />
+      <p>
+        These low-profile sneakers are your perfect casual wear <br />
+        companion.Featuring a durable rubber outer sole, they'll <br />
+        with stand everything the weather can affer.
+      </p>
+      <h3>$125.00 <span class="sp">50%</span></h3>
+      <h4><strike> $250.00 </strike></h4>
+      <div class="bg">
+        <div id="calculate">
+          <div class="color">-</div>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="span">0</span
+          >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <div class="color" id="color1">+</div>
+        </div>
+      </div>
+      <button class="button23">
+        <i class="fa-solid fa-cart-shopping"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Add to cart
+      </button>
+    </div>
+    <div class="images">
+      <img
+        class="img1"
+        id="active"
+        src="images/image-product-1-thumbnail.jpg"
+        alt="img1"
+      />
+      <img
+        class="img2"
+        onclick="changeimage('image-product-1.jpg')"
+        src="images/image-product-2-thumbnail.jpg"
+        alt="img2"
+      />
+      <img class="img3" src="images/image-product-3-thumbnail.jpg" alt="img3" />
+      <img class="img4" src="images/image-product-4-thumbnail.jpg" alt="img4" />
+    </div>
+    <!--     
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+    <script
+      src="https://kit.fontawesome.com/f497a2fd00.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
